@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load staticfiles %}
+
 <html>
 
     <head>
@@ -13,6 +16,11 @@
     </div>
     <div>
         <a href="/rango/about">About</a><br/>
+        <img src="{%  static "images/lava.jpg" %}"
+             alt="My current feelings." />
+        </br>
+        <img src="{%  static "images/why.jpg" %}"
+             alt="Also my current feelings." />
     </div>
     </body>
 </html>
