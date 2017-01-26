@@ -27,4 +27,5 @@ urlpatterns = [
     url(r'^django1/about/', include('django1.urls')),
     url(r'^django1/', include('django1.urls')),
     url(r'^admin/', admin.site.urls),
+
 ]
